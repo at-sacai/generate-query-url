@@ -74,6 +74,6 @@ addFormButton.addEventListener('click', () => {
 	const cell3 = newRow.insertCell(2);
 
 	cell1.textContent = rowCount;
-	cell2.innerHTML = '<input type="text" placeholder="キー名を入力する" />';
-	cell3.innerHTML = '<input type="text" placeholder="値を入力する" />';
+	cell2.innerHTML = '<input type="text" placeholder="Enter key" />';
+	cell3.innerHTML = '<input type="text" placeholder="Enter value" />';
 });
