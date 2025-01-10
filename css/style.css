@@ -1,0 +1,62 @@
+.container {
+	width: 500px;
+	margin: 0 auto;
+	padding: 16px 8px;
+}
+
+.title_header {
+	text-align: center;
+	font-size: 26px;
+	padding: 15px 0;
+}
+
+.input_url_section {
+	margin-top: 15px;
+}
+
+.wrap_input {
+	margin: 8px 0;
+}
+
+.input_url_section .wrap_input input {
+	width: 400px;
+}
+
+.split_url_section {
+	margin-top: 30px;
+}
+
+.wrap_button {
+	text-align: center;
+	padding: 16px 0;
+}
+
+.input_params_section {
+	margin-top: 15px;
+}
+
+.input_params_section .wrap_table {
+	margin-top: 15px;
+}
+
+.wrap_table th,
+.wrap_table td {
+	padding: 8px 16px;
+	text-align: center;
+}
+
+.input_params_section .wrap_button {
+	justify-content: space-between;
+}
+
+.input_params_section .wrap_button button {
+	margin: 0 8px;
+}
+
+.create_url_section {
+	margin-top: 30px;
+}
+
+.wrap_p {
+	padding: 16px 0;
+}

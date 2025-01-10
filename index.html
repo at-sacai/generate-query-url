@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Query URL Generator</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1 class="title_header">Query URL Generator</h1>
+			</header>
+			<section class="input_url_section">
+				<h2 class="input_url_section_title">1. Enter the URL to add query parameters</h2>
+				<div class="wrap_input">
+					<p>URL：<input type="text" class="input_url" placeholder="Enter URL" /></p>
+				</div>
+				<div class="wrap_button">
+					<button type="button" class="clear_url_input_button">Clear</button>
+				</div>
+			</section>
+			<!-- <section class="split_url_section">
+				<h2 class="split_url_section_title">② ①がクエリパラメータ付きURLの場合、分割する</h2>
+				<div class="wrap_button">
+					<button type="button">分解</button>
+				</div>
+			</section> -->
+			<section class="input_params_section">
+				<h2 class="input_params_section_title">2. Enter the query parameters to add</h2>
+				<div class="wrap_table">
+					<table>
+						<tr>
+							<th>No.</th>
+							<th>key</th>
+							<th>value</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><input type="text" placeholder="Enter key" /></td>
+							<td><input type="text" placeholder="Enter value" /></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><input type="text" placeholder="Enter key" /></td>
+							<td><input type="text" placeholder="Enter value" /></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><input type="text" placeholder="Enter key" /></td>
+							<td><input type="text" placeholder="Enter value" /></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><input type="text" placeholder="Enter key" /></td>
+							<td><input type="text" placeholder="Enter value" /></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><input type="text" placeholder="Enter key" /></td>
+							<td><input type="text" placeholder="Enter value" /></td>
+						</tr>
+					</table>
+					<div class="wrap_button">
+						<button type="button" class="clear_params_inputs_button">Clear</button>
+						<button type="button" class="add_form_button">Add Form</button>
+					</div>
+				</div>
+			</section>
+			<section class="create_url_section">
+				<h2 class="create_url_section_title">3. Generate Query URL</h2>
+				<div class="wrap_button">
+					<button type="button">Generate Query URL</button>
+				</div>
+			</section>
+			<section class="generate_url_section">
+				<h2 class="generate_url_section_title">4. Output</h2>
+				<div class="wrap_p">
+					<p>URL：<span></span></p>
+				</div>
+			</section>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
