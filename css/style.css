@@ -60,3 +60,12 @@
 .wrap_p {
 	padding: 16px 0;
 }
+
+.footer {
+	padding: 16px;
+	text-align: center;
+	font-size: 14px;
+	color: #777;
+	border-top: 1px solid #ddd;
+	margin-top: 20px;
+}
